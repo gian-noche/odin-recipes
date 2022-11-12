@@ -1,0 +1,9 @@
+* {
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.hero-title, .recipe {
+    font-size: 3rem;
+    color: #ff960d;
+}
