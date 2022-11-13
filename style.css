@@ -1,9 +1,32 @@
 * {
     font-family: Garamond, 'Times New Roman', Times, serif;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
-.hero-title, .recipe {
+.container {
+    width: 50vw;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero-title {
     font-size: 3rem;
     color: #ff960d;
+    text-align: center;
+}
+
+#recipe-list {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#recipe-list > li > a {
+    font-size: 1.5rem;
 }
